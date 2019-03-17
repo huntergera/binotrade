@@ -8,9 +8,20 @@
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-	
+	<link rel="stylesheet" href="css/vendor.min.css">
 
 	<link rel="stylesheet" href="css/custom.css">
+
+	<!--[if IE]>
+      <style>
+        .conditions .advantages__item {
+			width: 50%;
+			padding-left: 50px;
+			padding-right: 50px;
+        }
+        
+      </style>
+    <![endif]-->
 </head>
 
 <body>
@@ -45,7 +56,12 @@
 					<a href="#" class="header__link user-enter">Войти</a>
 					<a href="#" class="header__link login">Зарегистрироваться</a>
 				</div>
+				<div class="btn_close"></div>
 			</div>
+			<div class="mobile_btn">
+				<span></span>
+			</div>
+			<div class="body-mask"></div>
 		</header>
 		<!-- END HEADER -->
 		
@@ -69,33 +85,25 @@
 						<div class="advantages__icon">
 							<img src="img/adv-icon.svg" alt="icon">
 						</div>
-						<div class="advantages__txt">
-							<p>Оттачи выигрышную стратегию на учебном счете</p>
-						</div>
+						<p class="advantages__txt">Оттачи выигрышную стратегию на учебном счете</p>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__icon">
 							<img src="img/adv-icon2.svg" alt="icon">
 						</div>
-						<div class="advantages__txt">
-							<p>Торгуй с минимумом вложений и получай до 95% прибыли</p>
-						</div>
+						<p class="advantages__txt">Торгуй с минимумом вложений и получай до 95% прибыли</p>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__icon">
 							<img src="img/adv-icon3.svg" alt="icon">
 						</div>
-						<div class="advantages__txt">
-							<p>Определяй куда пойдет цена актива: вверх или вниз</p>
-						</div>
+						<p class="advantages__txt">Определяй куда пойдет цена актива: вверх или вниз</p>
 					</div>
 					<div class="advantages__item">
 						<div class="advantages__icon">
 							<img src="img/adv-icon4.svg" alt="icon">
 						</div>
-						<div class="advantages__txt">
-							<p>Выводи прибыль без ограничений на карту или онлайн-кошелек </p>
-						</div>
+						<p class="advantages__txt">Выводи прибыль без ограничений на карту или онлайн-кошелек </p>
 					</div>
 				</div>
 				<div class="tabs tabs__conditions">
@@ -125,11 +133,37 @@
 						</div>
 					</div>
 					<div class="tabs__content">
-						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauri</p>
+						<div class="tabs__content--wrap">
+							<div class="tabs__content--info">
+								<h2 class="h2">Персональный менеджер</h2>
+								<p class="tabs__content--txt">Реальный счет позволит вам зарабатывать реальные деньги. Для открытия реального счёта необходимо лишь зарегистрироваться и пополнить торговый счет. Минимальный депозит составляет всего 10 $. Это реальный шанс увеличить свой доход!</p>
+							</div>
+							<div class="tabs__content--img">
+								<img src="img/deposit.svg" alt="Deposit">
+							</div>
+						</div>
 					</div>
 					<div class="tabs__content">
-						<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo p</p>
-						<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. </p>
+						<div class="tabs__content--wrap">
+							<div class="tabs__content--info">
+								<h2 class="h2">Бесплатное обучение</h2>
+								<p class="tabs__content--txt">Реальный счет позволит вам зарабатывать реальные деньги. Для открытия реального счёта необходимо лишь зарегистрироваться и пополнить торговый счет. Минимальный депозит составляет всего 10 $. Это реальный шанс увеличить свой доход!</p>
+							</div>
+							<div class="tabs__content--img">
+								<img src="img/deposit.svg" alt="Deposit">
+							</div>
+						</div>
+					</div>
+					<div class="tabs__content">
+						<div class="tabs__content--wrap">
+							<div class="tabs__content--info">
+								<h2 class="h2">Круглосуточная поддержка</h2>
+								<p class="tabs__content--txt">Реальный счет позволит вам зарабатывать реальные деньги. Для открытия реального счёта необходимо лишь зарегистрироваться и пополнить торговый счет. Минимальный депозит составляет всего 10 $. Это реальный шанс увеличить свой доход!</p>
+							</div>
+							<div class="tabs__content--img">
+								<img src="img/deposit.svg" alt="Deposit">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -141,16 +175,16 @@
 			<div class="container">
 				<h2 class="h2">Более 50 проверенных активов</h2>
 				<div class="brands__wrap">
-					<img src="img/brands/brand-1.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-2.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-3.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-4.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-5.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-6.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-7.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-8.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-9.png" alt="brand" class="brands__item">
-					<img src="img/brands/brand-10.png" alt="brand" class="brands__item">
+					<img src="img/brands/brand-1.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-2.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-3.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-4.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-5.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-6.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-7.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-8.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-9.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
+					<img src="img/brands/brand-10.png" alt="brand" class="brands__item wow lightSpeedIn" data-wow-offset="200">
 				</div>
 			</div>
 		</section>
@@ -158,18 +192,112 @@
 
 		<!-- MOBILE-APP -->
 		<section class="mobile-app">
-			<div class="container-small">
+			<div class="mobile-app__bg wow zoomIn">
+				<img src="img/mobile-app-bg-transp.png" alt="background">
+			</div>
+			<div class="container">
 				<div class="mobile-app__description">
-
+					<h2 class="h2">Мобильные приложения</h2>
+					<p class="mobile-app__txt">Торговля на нескольких графиках, технический анализ, история котировок и многое другое. Все, что вам нужно на платформе, доступно на любом устройстве по вашему выбору.</p>
 				</div>
 			</div>
+			<img class="mobile-app__img mobile-app__img-1 wow fadeInUp" src="img/device.png" alt="Device">
+			<img class="mobile-app__img mobile-app__img-2 wow fadeInDown" data-wow-offset="100" src="img/device-2.png" alt="Device">
 		</section>
 		<!-- END MOBILE-APP -->
 
+		<!-- ABOUT-US -->
+		<section class="about-us">
+			<div class="container">
+				<h2 class="h2">Binotrade.com — бинарный опцион с личным помощником</h2>
+				<p class="about-us__txt">
+					Binotrade - это торговая платформа, удобный инструмент, который предлагает не только возможность заработать с помощью торговли бинарными опционами, но и предоставляет профессиональный клиентский сервис. Сразу после регистрации на Binotrade.com, каждый клиент получает личного консультанта.
+					Вам нужен совет по торговле активами или вы не можете подобрать подходящую торговую стратегию? Обратитесь к вашему личному консультанту, который поможет вам в решении вопроса. Вам не нужен статус VIP-клиента, чтобы пользоваться квалифицированным клиентским сервисом!
+				</p>
+			</div>
+		</section>
+		<!-- END ABOUT-US -->
 	</div>
+
 	<!-- FOOTER -->
 	<footer class="footer">
-	
+		<div class="container">
+			<div class="footer__column">
+				<h4 class="h4">Правовая информация</h4>
+				<ul class="footer__menu">
+					<li>
+						<a href="#" class="footer__menu--link">Положения и условия</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Политика по борьбе с отмыванием денег</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Политика конфиденциальности</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Политика Проведения платежей</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4 class="h4">Трейдерам</h4>
+				<ul class="footer__menu">
+					<li>
+						<a href="#" class="footer__menu--link">Активы</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Архив котеровок</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Частые вопросы</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Обучение</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h4 class="h4">О компании</h4>
+				<ul class="footer__menu">
+					<li>
+						<a href="#" class="footer__menu--link">Новости</a>
+					</li>
+					<li>
+						<a href="#" class="footer__menu--link">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column footer__column_dwnl">
+				<a href="#" class="dwnl-link">
+					<img src="img/app-dwnl.png" alt="App Store">
+				</a>
+				<a href="#" class="dwnl-link">
+					<img src="img/gplay-dwnl.png" alt="Google Play">
+				</a>
+			</div>
+			<div class="footer__column footer__column_socials">
+				<div class="socials">
+					<a href="#" class="socials__item">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="socials__item">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="#" class="socials__item">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="socials__item">
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+				</div>
+				<div class="designed-in">
+					Designed in
+					<a href="https://solardigital.com.ua/" class="designed-in__logo">
+						<img src="img/logo-solar.svg" alt="Solar Digital">
+					</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 	<!-- END FOOTER -->
 
