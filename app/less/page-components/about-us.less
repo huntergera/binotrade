@@ -1,0 +1,30 @@
+.about-us {
+    margin-bottom: 118px;
+
+    @media @tablet, @mobile {
+        margin-bottom: 0;
+    }
+
+    &__txt {
+        column-count: 2;
+        font-size: 18px;
+        line-height: 1.5;
+        column-gap: 65px;
+
+        @media @mobile {
+           column-count: 1;
+        }
+    }
+
+    .container {
+        padding: 0 126px 0 10px;
+
+        @media @mobile {
+            padding: 0 15px;
+        }
+    }
+
+    h2, .h2 {
+        margin-bottom: 32px;
+    }
+}

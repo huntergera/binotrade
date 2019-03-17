@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Qanelas';
+    src: url('Qanelas-Black.eot');
+    src: url('Qanelas-Black.eot?#iefix') format('embedded-opentype'),
+        url('Qanelas-Black.woff2') format('woff2'),
+        url('Qanelas-Black.woff') format('woff'),
+        url('Qanelas-Black.ttf') format('truetype'),
+        url('Qanelas-Black.svg#Qanelas-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Qanelas';
+    src: url('Qanelas-Regular.eot');
+    src: url('Qanelas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Qanelas-Regular.woff2') format('woff2'),
+        url('Qanelas-Regular.woff') format('woff'),
+        url('Qanelas-Regular.ttf') format('truetype'),
+        url('Qanelas-Regular.svg#Qanelas-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Qanelas';
+    src: url('Qanelas-Medium.eot');
+    src: url('Qanelas-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Qanelas-Medium.woff2') format('woff2'),
+        url('Qanelas-Medium.woff') format('woff'),
+        url('Qanelas-Medium.ttf') format('truetype'),
+        url('Qanelas-Medium.svg#Qanelas-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
